@@ -1,0 +1,70 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.board-row{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.board-container{
+  max-width: 600px;
+  margin: auto;
+}
+
+.square {
+  border:1px solid;
+  height:100px;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.square > h5{
+  font-size: 40px;
+}
+
+.middle-top-box{
+  border-width: 0 1px 1px 1px; 
+}
+
+.middle-right-box{
+  border-width: 1px 0 1px 1px; 
+}
+
+.middle-bottom-box{
+  border-width: 1px 1px 0 1px; 
+}
+
+.middle-left-box{
+  border-width: 1px 1px 1px 0; 
+}
+
+.top-left-corner-box{
+  border-width: 0 1px 1px 0; 
+}
+
+.top-right-corner-box{
+  border-width: 0 0 1px 1px; 
+}
+
+.bottom-left-corner-box{
+  border-width: 1px 1px 0 0; 
+}
+
+.bottom-right-corner-box{
+  border-width: 1px 0 0 1px; 
+}
